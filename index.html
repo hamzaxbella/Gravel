@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>press A to run or pause the game. D to toggle between debug mode and play mode. SPACE  to hit the enemy.</h1>
+    <h1>WASD to move (W jump, S kneel). SPACE to attack. P to pause. E to toggle debug. R to restart after death.</h1>
     <canvas id="canvas"></canvas>
     <h1 id="showState"></h1>
     <!-- images -->
@@ -43,6 +43,8 @@
         <img src="assets/enemies/level 1/Old_Golem_hit.png"   id="golemDamage" alt="">
         <img src="assets/enemies/level 1/Old_Golem_walk.png"  id="golemMove"  alt="">
         <img src="assets/enemies/level 1/Old_Golem_death.png" id="golemDeath"  alt="">
+        <img src="assets/enemies/level 1/Old_Golem_bullet.png" id="golemBullet" alt="">
+        <img src="assets/enemies/level 1/Old_Golem_spit.png"   id="golemSpit" alt="">
     </div>
 
     <script type="module" src="game.js"></script>
